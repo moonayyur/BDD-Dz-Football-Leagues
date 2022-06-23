@@ -18,7 +18,34 @@ CREATE TABLE Equipe(
    FOREIGN KEY(club_id) REFERENCES Club(club_id)
 );
 
-CREATE TABLE Personne(
+CREATE TABLE Entraineur( 
+   personne_id VARCHAR(50),
+   nom VARCHAR(50),
+   prenom VARCHAR(50),
+   date_de_naissance DATE,
+   lieu_de_naissance VARCHAR(50),
+   nationalite VARCHAR(50),
+   profession VARCHAR(50) NOT NULL,
+   PRIMARY KEY(personne_id)
+);
+
+CREATE TABLE Dirigeant( 
+   personne_id VARCHAR(50),
+   nom VARCHAR(50),
+   prenom VARCHAR(50),
+   date_de_naissance DATE,
+   lieu_de_naissance VARCHAR(50),
+   nationalite VARCHAR(50),
+   profession VARCHAR(50) NOT NULL,
+   PRIMARY KEY(personne_id)
+);
+
+CREATE TABLE Saison(
+   saison VARCHAR(50),
+   PRIMARY KEY(saison)
+);
+
+CREATE TABLE Arbitre( 
    personne_id VARCHAR(50),
    nom VARCHAR(50),
    prenom VARCHAR(50),
@@ -28,31 +55,6 @@ CREATE TABLE Personne(
    PRIMARY KEY(personne_id)
 );
 
-CREATE TABLE Entraineur(
-   personne_id VARCHAR(50),
-   profession VARCHAR(50) NOT NULL,
-   PRIMARY KEY(personne_id),
-   FOREIGN KEY(personne_id) REFERENCES Personne(personne_id)
-);
-
-CREATE TABLE Dirigeant(
-   personne_id VARCHAR(50),
-   profession VARCHAR(50) NOT NULL,
-   PRIMARY KEY(personne_id),
-   FOREIGN KEY(personne_id) REFERENCES Personne(personne_id)
-);
-
-CREATE TABLE Saison(
-   saison VARCHAR(50),
-   PRIMARY KEY(saison)
-);
-
-CREATE TABLE Arbitre(
-   personne_id VARCHAR(50),
-   PRIMARY KEY(personne_id),
-   FOREIGN KEY(personne_id) REFERENCES Personne(personne_id)
-);
-
 CREATE TABLE Region(
    region VARCHAR(50),
    PRIMARY KEY(region)
@@ -60,11 +62,15 @@ CREATE TABLE Region(
 
 CREATE TABLE Joueur(
    personne_id VARCHAR(50),
+   nom VARCHAR(50),
+   prenom VARCHAR(50),
+   date_de_naissance DATE,
+   lieu_de_naissance VARCHAR(50),
+   nationalite VARCHAR(50),
    numero SMALLINT NOT NULL,
    taille SMALLINT,
    poids SMALLINT,
-   PRIMARY KEY(personne_id),
-   FOREIGN KEY(personne_id) REFERENCES Personne(personne_id)
+   PRIMARY KEY(personne_id)
 );
 
 CREATE TABLE Wilaya(

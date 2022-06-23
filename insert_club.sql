@@ -1,0 +1,21 @@
+-- INSERT INTO club (
+--     club_id,
+--     nom,
+--     adress,
+--     date_de_creation,
+--     telephone,
+--     faxe,
+--     couleur_principale,
+--     couleur_réserve
+--   )
+-- VALUES (
+--     'ESMBR',
+--     'E.S.M.B REGHAIA',
+--     'حي محمد الباي الرغاية',
+--     '2002-1-1',
+--     0557010352,
+--     023740101,
+--     'Rouge',
+--     'Vert'
+--   );
+

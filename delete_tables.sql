@@ -15,6 +15,5 @@ Drop TABLE Arbitre;
 Drop TABLE Saison;
 Drop TABLE Dirigeant;
 Drop TABLE Entraineur;
-Drop TABLE Personne;
 Drop TABLE Equipe;
 Drop TABLE Club;
