@@ -99,19 +99,19 @@ CREATE TABLE Groupe(
 CREATE TABLE Rencontre(
    saison VARCHAR(50),
    rencontre_id INT,
-   buts_a SMALLINT,
-   but_b SMALLINT,
-   club_id VARCHAR(10) NOT NULL,
-   categorie VARCHAR(50) NOT NULL,
+   date_rencontre DATE,
+   club_id_a VARCHAR(10) NOT NULL,
+   categorie_a VARCHAR(50) NOT NULL,
+   club_id_b VARCHAR(10) NOT NULL,
+   categorie_b VARCHAR(50) NOT NULL,
    wilaya VARCHAR(50) NOT NULL,
    stade VARCHAR(50) NOT NULL,
-   club_id_1 VARCHAR(10) NOT NULL,
-   categorie_1 VARCHAR(50) NOT NULL,
+   check(categorie_a=categorie_b),
    PRIMARY KEY(saison, rencontre_id),
    FOREIGN KEY(saison) REFERENCES Saison(saison),
-   FOREIGN KEY(club_id, categorie) REFERENCES Equipe(club_id, categorie),
+   FOREIGN KEY(club_id_a, categorie_a) REFERENCES Equipe(club_id, categorie),
    FOREIGN KEY(wilaya, stade) REFERENCES Stade(wilaya, stade),
-   FOREIGN KEY(club_id_1, categorie_1) REFERENCES Equipe(club_id, categorie)
+   FOREIGN KEY(club_id_b, categorie_b) REFERENCES Equipe(club_id, categorie)
 );
 
 CREATE TABLE But(
