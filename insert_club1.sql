@@ -28,6 +28,16 @@ VALUES
     023801760,
     'Rouge',
     'Vert'
+  ),
+  (
+    'WRDBK',
+    'W.R.D BORDJ EL-KIFFAN',
+    'Salle multisport cité 11 décembre 1960 APC BORDJ EL KIFFANE',
+    '1992-1-1',
+    0656948536,
+    null,
+    'Vert',
+    'Rouge'
   );
 
 
@@ -154,6 +164,31 @@ VALUES
     '2002-1-17',
     'Bordj El Kiffan, Alger',
     'Algerien'
+  ),
+  -- WRDBK 26 to 28 (34)
+  (
+    '26',
+    'HAMMAD',
+    'Mourad',
+    '1992-2-20',
+    'Dellys, Alger',
+    'Algerien'
+  ),
+  (
+    '27',
+    'TIAIBA',
+    'Lyes',
+    '2001-5-23',
+    'HUSSEIN DEY, Alger',
+    'Algerien'
+  ),
+  (
+    '28',
+    'MESSAOUD',
+    'Sofiane',
+    '1980-1-15',
+    'Alger',
+    'Algerien'
   );
 
 
@@ -189,6 +224,22 @@ VALUES (
   ),
   (
     'CMBK',
+    'U15'
+  ),
+  (
+    'WRDBK',
+    'Senior'
+  ),
+  (
+    'WRDBK',
+    'U19'
+  ),
+  (
+    'WRDBK',
+    'U17'
+  ),
+  (
+    'WRDBK',
     'U15'
   );
 
@@ -317,6 +368,31 @@ VALUES
     'CMBK',
     'Senior',
     '6'
+  ),
+  -- WRDBK
+  (
+    '26',
+    '2022',
+    'Gardien de but',
+    'WRDBK',
+    'Senior',
+    '16'
+  ),
+  (
+    '27',
+    '2022',
+    'Défenseur',
+    'WRDBK',
+    'Senior',
+    '29'
+  ),
+  (
+    '28',
+    '2022',
+    'Milieu de terrain',
+    'WRDBK',
+    'Senior',
+    '19'
   );
 
 
@@ -403,6 +479,43 @@ VALUES
       'Bordj El Kiffan, Alger',
       'Algerien',
       'Entraîneur principal'
+    ),
+    -- WRDBK
+    (
+      '29',
+      'BENMORSLI',
+      'Mohamed',
+      '1965-8-29',
+      'kasbah, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '30',
+      'HAOULAY',
+      'Kamel',
+      '1949-2-6',
+      'ALGER CENTRE, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '31',
+      'AIT-SEDDIK',
+      'Tahar',
+      '1954-2-12',
+      'FRIHA, Tizi ouzou',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '32',
+      'LAZEGHED',
+      'Fateh',
+      '1986-3-17',
+      'CASBAH, Alger',
+      'Algerien',
+      'Entraîneur principal'
     );
 
 
@@ -439,7 +552,7 @@ VALUES
         'U19'
       ),
         -- CMBK
-       (
+      (
         '22',
         '2022',
         'CMBK',
@@ -462,6 +575,31 @@ VALUES
         '2022',
         'CMBK',
         'Senior'
+      ),
+      -- WRDBK
+      (
+        '29',
+        '2022',
+        'WRDBK',
+        'Senior'
+      ),
+      (
+        '30',
+        '2022',
+        'WRDBK',
+        'U17'
+      ),
+      (
+        '31',
+        '2022',
+        'WRDBK',
+        'U15'
+      ),
+      (
+        '32',
+        '2022',
+        'WRDBK',
+        'U19'
       );
 
 
@@ -513,6 +651,25 @@ VALUES
     'Bordj El Kiffan, Alger',
     'Algerien',
     'Secrétaire seniors'
+  ),
+  -- WRDBK
+  (
+    '33',
+    'HATEM',
+    'Djillali',
+    '1963-6-28',
+    'SIDI MHAMED, Alger',
+    'Algerien',
+    'Soigneur'
+  ),
+  (
+    '34',
+    'CHEMLAL',
+    'Adel',
+    '1981-6-23',
+    'BAB EL OUED, Alger',
+    'Algerien',
+    'Secrétaire seniors'
   );
 
 
@@ -544,4 +701,15 @@ VALUES
     '26',
     '2022',
     'CMBK'
+  ),
+  -- WRDBK
+  (
+    '33',
+    '2022',
+    'WRDBK'
+  ),
+  (
+    '34',
+    '2022',
+    'WRDBK'
   );
