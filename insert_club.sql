@@ -18,4 +18,211 @@
 --     'Rouge',
 --     'Vert'
 --   );
+-- INSERT INTO club (
+--     club_id,
+--     nom,
+--     adresse,
+--     date_de_creation,
+--     telephone,
+--     faxe,
+--     couleur_principale,
+--     couleur_réserve
+--   )
+-- VALUES (
+--     'JSOMA',
+--     'J.S.O Maamria',
+--     'rut principal stade communal heuraoua arbi abdelouahab',
+--     '2006-1-1',
+--     023958098,
+--     023958098,
+--     'Vert',
+--     'Rouge'
+--   );
 
+
+
+-- INSERT INTO joueur (
+--     personne_id,
+--     nom,
+--     prenom,
+--     date_de_naissance,
+--     lieu_de_naissance,
+--     nationalite,
+--     numero
+--   )
+-- VALUES (
+--     '1',
+--     'BERROUSSI',
+--     'Imad',
+--     '2000-6-18',
+--     'el harrache, Alger',
+--     'Algerien',
+--     '1'
+--   ),
+--   (
+--     '2',
+--     'LEBCIR',
+--     'Abderazzak',
+--     '1988-7-5',
+--     'BOUSSAADA, Msila',
+--     'Algerien',
+--     '30'
+--   ),
+--   (
+--     '3',
+--     'BAHMED',
+--     'Toufik',
+--     '1996-10-20',
+--     'H-DEY, Alger',
+--     'Algerien',
+--     '4'
+--   ),
+--   (
+--     '4',
+--     'TAGAOUNAMANE',
+--     'Billal',
+--     '1991-7-17',
+--     'REGHAIA, Alger',
+--     'Algerien',
+--     '18'
+--   ),
+--   (
+--     '5',
+--     'ATTIG',
+--     'Ahmed Aymen Eddine',
+--     '1995-7-3',
+--     'heuraoua, Alger',
+--     'Algerien',
+--     '28'
+--   ),
+--   (
+--     '6',
+--     'AROUS',
+--     'Rafik',
+--     '1995-5-28',
+--     'AIN TAYA, Alger',
+--     'Algerien',
+--     '2'
+--   ),
+--   (
+--     '7',
+--     'BENDECHACHE',
+--     'Mohamed Lamine',
+--     '1992-3-19',
+--     'rouiba, Alger',
+--     'Algerien',
+--     '3'
+--   ),
+--   (
+--     '8',
+--     'BEHAR',
+--     'Mokhtar',
+--     '2000-2-13',
+--     'rouiba, Alger',
+--     'Algerien',
+--     '22'
+--   ),
+--   (
+--     '9',
+--     'DJEMMAH',
+--     'Oussama',
+--     '1995-6-19',
+--     'rouiba, Alger',
+--     'Algerien',
+--     '14'
+--   ),
+--   (
+--     '10',
+--     'FEZZA',
+--     'Chouaib',
+--     '2001-2-6',
+--     'beni messous, Alger',
+--     'Algerien',
+--     '21'
+--   ),
+--   (
+--     '11',
+--     'BOUAFIA',
+--     'Ahmed Alamine',
+--     '1999-5-28',
+--     'reghaia, Alger',
+--     'Algerien',
+--     '19'
+--   );
+
+
+
+
+-- INSERT INTO saison (saison)
+-- VALUES ('2022');
+
+-- INSERT INTO region (region)
+-- VALUES ('Alger');
+
+-- INSERT INTO wilaya (wilaya, region)
+-- VALUES ('Alger', 'Alger');
+
+-- INSERT INTO division (wilaya, division)
+-- VALUES (
+--     'Alger',
+--     'Honneur'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur'
+--   ),
+--   (
+--     'Alger',
+--     'JEUNES'
+--   );
+-- INSERT INTO groupe (wilaya, division, groupe)
+-- VALUES (
+--     'Alger',
+--     'Honneur',
+--     '1'
+--   ),
+--   (
+--     'Alger',
+--     'Honneur',
+--     '2'
+--   ),
+--   (
+--     'Alger',
+--     'Honneur',
+--     '3'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur',
+--     '1'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur',
+--     '2'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur',
+--     '3'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur',
+--     '4'
+--   ),
+--   (
+--     'Alger',
+--     'Pré-Honneur',
+--     '5'
+--   ),
+--   (
+--     'Alger',
+--     'JEUNES',
+--     '1'
+--   ),
+--   (
+--     'Alger',
+--     'JEUNES',
+--     '2'
+--   );

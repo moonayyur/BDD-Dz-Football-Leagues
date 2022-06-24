@@ -1,7 +1,7 @@
 CREATE TABLE Club(
    club_id VARCHAR(10),
    nom VARCHAR(50) NOT NULL,
-   adress VARCHAR(50),
+   adresse VARCHAR(100),
    date_de_creation DATE,
    telephone INT,
    faxe INT,
