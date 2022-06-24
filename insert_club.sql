@@ -87,6 +87,16 @@
 --     023740101,
 --     'Rouge',
 --     'Vert'
+--   ),
+--   (
+--     'JSOMA',
+--     'J.S.O Maamria',
+--     'rut principal stade communal heuraoua arbi abdelouahab',
+--     '2006-1-1',
+--     023958098,
+--     023958098,
+--     'Vert',
+--     'Rouge'
 --   );
 
 -- INSERT INTO equipe (club_id, categorie)
