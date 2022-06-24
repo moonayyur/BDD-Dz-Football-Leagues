@@ -102,33 +102,6 @@ CREATE TABLE Groupe(
    FOREIGN KEY(wilaya, division) REFERENCES Division(wilaya, division)
 );
 
-CREATE TABLE Rencontre(
-   rencontre_id INT AUTO_INCREMENT,
-   saison VARCHAR(50),
-   date_rencontre DATE,
-   club_id_a VARCHAR(10) NOT NULL,
-   categorie_a VARCHAR(50) NOT NULL,
-   club_id_b VARCHAR(10) NOT NULL,
-   categorie_b VARCHAR(50) NOT NULL,
-   wilaya VARCHAR(50) NOT NULL,
-   stade VARCHAR(50) NOT NULL,
-   check(categorie_a=categorie_b),
-   PRIMARY KEY(rencontre_id),
-   FOREIGN KEY(saison) REFERENCES Saison(saison),
-   FOREIGN KEY(club_id_a, categorie_a) REFERENCES Equipe(club_id, categorie),
-   FOREIGN KEY(wilaya, stade) REFERENCES Stade(wilaya, stade),
-   FOREIGN KEY(club_id_b, categorie_b) REFERENCES Equipe(club_id, categorie)
-);
-
-CREATE TABLE But(
-   rencontre_id INT,
-   personne_id INT,
-   minute_but VARCHAR(50),
-   PRIMARY KEY(rencontre_id, personne_id, minute_but),
-   FOREIGN KEY(rencontre_id) REFERENCES Rencontre(rencontre_id),
-   FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id)
-);
-
 CREATE TABLE Grouper(
    club_id VARCHAR(10),
    saison VARCHAR(50),
@@ -173,6 +146,33 @@ CREATE TABLE Jouer(
    FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id),
    FOREIGN KEY(saison) REFERENCES Saison(saison),
    FOREIGN KEY(club_id, categorie) REFERENCES Equipe(club_id, categorie)
+);
+
+CREATE TABLE Rencontre(
+   rencontre_id INT AUTO_INCREMENT,
+   saison VARCHAR(50),
+   date_rencontre DATE,
+   club_id_a VARCHAR(10) NOT NULL,
+   categorie_a VARCHAR(50) NOT NULL,
+   club_id_b VARCHAR(10) NOT NULL,
+   categorie_b VARCHAR(50) NOT NULL,
+   wilaya VARCHAR(50) NOT NULL,
+   stade VARCHAR(50) NOT NULL,
+   check(categorie_a=categorie_b),
+   PRIMARY KEY(rencontre_id),
+   FOREIGN KEY(saison) REFERENCES Saison(saison),
+   FOREIGN KEY(club_id_a, categorie_a) REFERENCES Equipe(club_id, categorie),
+   FOREIGN KEY(wilaya, stade) REFERENCES Stade(wilaya, stade),
+   FOREIGN KEY(club_id_b, categorie_b) REFERENCES Equipe(club_id, categorie)
+);
+
+CREATE TABLE But(
+   rencontre_id INT,
+   personne_id INT,
+   minute_but VARCHAR(50),
+   PRIMARY KEY(rencontre_id, personne_id, minute_but),
+   FOREIGN KEY(rencontre_id) REFERENCES Rencontre(rencontre_id),
+   FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id)
 );
 
 CREATE TABLE Arbitrer(

@@ -1,10 +1,10 @@
 Drop TABLE Arbitrer;
+Drop TABLE But;
+Drop TABLE Rencontre;
 Drop TABLE Jouer;
 Drop TABLE Entrainer;
 Drop TABLE Diriger;
 Drop TABLE Grouper;
-Drop TABLE But;
-Drop TABLE Rencontre;
 Drop TABLE Groupe;
 Drop TABLE Division;
 Drop TABLE Stade;
