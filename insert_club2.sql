@@ -78,16 +78,7 @@
 --     couleur_principale,
 --     couleur_réserve
 --   )
--- VALUES (
---     'ESMBR',
---     'E.S.M.B REGHAIA',
---     'حي محمد الباي الرغاية',
---     '2002-1-1',
---     0557010352,
---     023740101,
---     'Rouge',
---     'Vert'
---   ),
+-- VALUES 
 --   (
 --     'JSOMA',
 --     'J.S.O Maamria',
