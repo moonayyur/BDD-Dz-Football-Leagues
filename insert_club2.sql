@@ -80,14 +80,14 @@
 --   )
 -- VALUES 
 --   (
---     'JSOMA',
---     'J.S.O Maamria',
---     'rut principal stade communal heuraoua arbi abdelouahab',
---     '2006-1-1',
---     023958098,
---     023958098,
---     'Vert',
---     'Rouge'
+--     'ESMBR',
+--     'E.S.M.B REGHAIA',
+--     'حي محمد الباي الرغاية',
+--     '2002-1-1',
+--     0557010352,
+--     023740101,
+--     'Rouge',
+--     'Vert'
 --   );
 
 -- INSERT INTO equipe (club_id, categorie)
