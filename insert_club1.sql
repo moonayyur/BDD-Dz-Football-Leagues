@@ -240,3 +240,142 @@ VALUES (
     'Senior',
     '19'
   );
+
+
+  INSERT INTO entraineur (
+      personne_id,
+      nom,
+      prenom,
+      date_de_naissance,
+      lieu_de_naissance,
+      nationalite,
+      profession
+    )
+  VALUES (
+      '12',
+      'RAHIM',
+      'Youcef',
+      '1981-10-14',
+      'HUSSEIN DEY, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '13',
+      'KHERABI',
+      'Fares',
+      '1992-1-22',
+      'ROUIBA, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),(
+      '14',
+      'BEN SADOUNI',
+      'Laid',
+      '1984-3-10',
+      'AIN TAYA, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),(
+      '15',
+      'ABDELLAOUI',
+      'Azzeddine',
+      '1974-12-4',
+      'ROUIBA, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    );
+
+
+    INSERT INTO entrainer (
+        personne_id,
+        saison,
+        club_id,
+        categorie
+      )
+    VALUES (
+        '12',
+        '2022',
+        'JSOMA',
+        'Senior'
+      ),
+      (
+        '13',
+        '2022',
+        'JSOMA',
+        'U17'
+      ),
+      (
+        '14',
+        '2022',
+        'JSOMA',
+        'U15'
+      ),
+      (
+        '15',
+        '2022',
+        'JSOMA',
+        'U19'
+      );
+
+
+
+INSERT INTO dirigeant (
+    personne_id,
+    nom,
+    prenom,
+    date_de_naissance,
+    lieu_de_naissance,
+    nationalite,
+    profession
+  )
+VALUES (
+    '16',
+    'BELLAZOUZ',
+    'Farid',
+    '1969-9-9',
+    'SIDI MHAMED, Alger',
+    'Algerien',
+    'Président du CSA'
+  ),
+  (
+    '17',
+    'SAHI',
+    'Rezkallah',
+    '1960-11-19',
+    'ROUIBA, Alger',
+    'Algerien',
+    'Président de Section'
+  ),
+  (
+    '18',
+    'IKHLEF ESCHOUF',
+    'Ishak',
+    '1999-11-8',
+    'AIN TAYA, Alger',
+    'Algerien',
+    'Secrétaire Général'
+  );
+
+
+
+INSERT INTO diriger (
+    personne_id,
+    saison,
+    club_id
+  )
+VALUES (
+    '16',
+    '2022',
+    'JSOMA'
+  ),
+  (
+    '17',
+    '2022',
+    'JSOMA'
+  ),
+  (
+    '18',
+    '2022',
+    'JSOMA'
+  );
