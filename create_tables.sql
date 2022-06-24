@@ -2,7 +2,7 @@ CREATE TABLE Club(
    club_id VARCHAR(10),
    nom VARCHAR(50) NOT NULL,
    adresse VARCHAR(100),
-   date_de_creation DATE,
+   annee_de_creation SMALLINT,
    telephone INT,
    faxe INT,
    email VARCHAR(50),
@@ -169,7 +169,7 @@ CREATE TABLE Rencontre(
 CREATE TABLE But(
    rencontre_id INT,
    personne_id INT,
-   minute_but VARCHAR(50),
+   minute_but INT,
    PRIMARY KEY(rencontre_id, personne_id, minute_but),
    FOREIGN KEY(rencontre_id) REFERENCES Rencontre(rencontre_id),
    FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id)

@@ -2,7 +2,7 @@ INSERT INTO club (
     club_id,
     nom,
     adresse,
-    date_de_creation,
+    annee_de_creation,
     telephone,
     faxe,
     couleur_principale,
@@ -12,7 +12,7 @@ VALUES (
     'ESMBR',
     'E.S.M.B REGHAIA',
     'حي محمد الباي الرغاية',
-    '2002-1-1',
+    2002,
     0557010352,
     023740101,
     'Rouge',
@@ -21,7 +21,7 @@ VALUES (
     'JSOMA',
     'J.S.O Maamria',
     'rut principal stade communal heuraoua arbi abdelouahab',
-    '2006-1-1',
+    2006,
     023958098,
     023958098,
     'Vert',
@@ -31,7 +31,7 @@ VALUES (
     'CMBK',
     'C.M BORDJ EL-KIFFAN',
     'Cité Bounâama Bt B N°04',
-    '1994-1-1',
+    1994,
     0771512397,
     023801760,
     'Rouge',
@@ -41,9 +41,58 @@ VALUES (
     'WRDBK',
     'W.R.D BORDJ EL-KIFFAN',
     'Salle multisport cité 11 décembre 1960 APC BORDJ EL KIFFANE',
-    '1992-1-1',
+    1992,
     0656948536,
     null,
     'Vert',
     'Rouge'
+  ),
+  (
+    'CRD',
+    'C.R Dergana',
+    'Ex Dispensaire BP 31 Dergana',
+    1993,
+    0770942925,
+    021218088,
+    'Rouge',
+    'Blue'
+  );
+
+INSERT INTO grouper (
+    club_id,
+    saison,
+    wilaya,
+    division,
+    groupe
+  )
+VALUES (
+    'ESMBR',
+    '2021-2022',
+    'alger',
+    'Pré-Honneur',
+    '1'
+  ),(
+    'JSOMA',
+    '2021-2022',
+    'alger',
+    'Pré-Honneur',
+    '1'
+  ),(
+    'CMBK',
+    '2021-2022',
+    'alger',
+    'Pré-Honneur',
+    '1'
+  ),(
+    'WRDBK',
+    '2021-2022',
+    'alger',
+    'Pré-Honneur',
+    '1'
+  ),(
+    'CRD',
+    '2021-2022',
+    'alger',
+    'Pré-Honneur',
+    '1'
   );

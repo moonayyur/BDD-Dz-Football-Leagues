@@ -128,7 +128,7 @@ VALUES
         'Alger',
         'Algerien'
     ),  
-    -- ESMBR 18 to 20
+    -- ESMBR
     (
         'NACER-BEY',
         'Mohamed Amine',
@@ -147,6 +147,26 @@ VALUES
         '1988-10-08',
         'ROUIBA, Alger',
         'Algerien'
+    ),
+    -- CRD
+    (
+        'BOUNADI',
+        'Mohamed Zakaria',
+        '2004-09-21',
+        'BORDJ EL KIFFAN, Alger',
+        'Algerien'
+    ),(
+        'NOUAR',
+        'Mohamed Elamine',
+        '2003-11-13',
+        'Sidi MHamed, Alger',
+        'Algerien'
+    ),(
+        'REKIOUA',
+        'Oussama',
+        '1995-11-13',
+        'ROUIBA, Alger',
+        'Algerien'
     );
 
 
@@ -161,7 +181,7 @@ INSERT INTO jouer (
 VALUES -- JSOMA
     (
         '1',
-        '2022',
+        '2021-2022',
         'Gardien de but',
         'JSOMA',
         'Senior',
@@ -169,7 +189,7 @@ VALUES -- JSOMA
     ),
     (
         '2',
-        '2022',
+        '2021-2022',
         'Gardien de but',
         'JSOMA',
         'Senior',
@@ -177,7 +197,7 @@ VALUES -- JSOMA
     ),
     (
         '3',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -185,7 +205,7 @@ VALUES -- JSOMA
     ),
     (
         '4',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -193,7 +213,7 @@ VALUES -- JSOMA
     ),
     (
         '5',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -201,7 +221,7 @@ VALUES -- JSOMA
     ),
     (
         '6',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -209,7 +229,7 @@ VALUES -- JSOMA
     ),
     (
         '7',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -217,7 +237,7 @@ VALUES -- JSOMA
     ),
     (
         '8',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -225,7 +245,7 @@ VALUES -- JSOMA
     ),
     (
         '9',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -233,7 +253,7 @@ VALUES -- JSOMA
     ),
     (
         '10',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'JSOMA',
         'Senior',
@@ -241,7 +261,7 @@ VALUES -- JSOMA
     ),
     (
         '11',
-        '2022',
+        '2021-2022',
         'Milieu de terrain',
         'JSOMA',
         'Senior',
@@ -251,7 +271,7 @@ VALUES -- JSOMA
         -- CMBK
     (
         '12',
-        '2022',
+        '2021-2022',
         'Gardien de but',
         'CMBK',
         'Senior',
@@ -259,7 +279,7 @@ VALUES -- JSOMA
     ),
     (
         '13',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'CMBK',
         'Senior',
@@ -267,7 +287,7 @@ VALUES -- JSOMA
     ),
     (
         '14',
-        '2022',
+        '2021-2022',
         'Milieu de terrain',
         'CMBK',
         'Senior',
@@ -275,7 +295,7 @@ VALUES -- JSOMA
     ),
     (
         '15',
-        '2022',
+        '2021-2022',
         'Gardien de but',
         'WRDBK',
         'Senior',
@@ -283,7 +303,7 @@ VALUES -- JSOMA
     ),
     (
         '16',
-        '2022',
+        '2021-2022',
         'Défenseur',
         'WRDBK',
         'Senior',
@@ -291,7 +311,7 @@ VALUES -- JSOMA
     ),
     (
         '17',
-        '2022',
+        '2021-2022',
         'Milieu de terrain',
         'WRDBK',
         'Senior',
@@ -300,23 +320,46 @@ VALUES -- JSOMA
   -- ESMBR
     (
       '18',
-      '2022',
+      '2021-2022',
       'Gardien de but',
       'ESMBR',
       'Senior',
       '1'
     ),(
       '19',
-      '2022',
+      '2021-2022',
       'Gardien de but',
       'ESMBR',
       'Senior',
       '30'
     ),(
       '20',
-      '2022',
+      '2021-2022',
       'Défenseur',
       'ESMBR',
       'Senior',
       '24'
+    ),
+    -- CRD
+    (
+      '21',
+      '2021-2022',
+      'Gardien de but',
+      'CRD',
+      'U19',
+      '1'
+    ),(
+      '22',
+      '2021-2022',
+      'Attaquant',
+      'CRD',
+      'U19',
+      '10'
+    ),(
+      '23',
+      '2021-2022',
+      'Défenseur',
+      'CRD',
+      'Senior',
+      '7'
     );

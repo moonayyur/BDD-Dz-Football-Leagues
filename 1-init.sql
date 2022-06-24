@@ -1,5 +1,5 @@
 INSERT INTO saison (saison)
-VALUES ('2022');
+VALUES ('2021-2022');
 
 INSERT INTO region (region)
 VALUES ('Alger');

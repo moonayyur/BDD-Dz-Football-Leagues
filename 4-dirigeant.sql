@@ -67,6 +67,36 @@ VALUES
     'ELHARRACH, Alger',
     'Algerien',
     'Secrétaire seniors'
+  ),
+  -- CRD
+    (
+    'BENSERAI',
+    'Salim',
+    '1974-10-07',
+    'AIN TAYA, Alger',
+    'Algerien',
+    'Secouriste'
+  ),(
+    'FERRAZ',
+    'Kamel',
+    '1964-08-30',
+    'SIDI MHAMED, Alger',
+    'Algerien',
+    'Soigneur'
+  ),(
+    'HALOUA',
+    'Walid',
+    '1988-01-07',
+    'alger',
+    'Algerien',
+    'Secrétaire de Jeunes'
+  ),(
+    'REKIOUA',
+    'Khoudir',
+    '1959-01-02',
+    'Jijel',
+    'Algerien',
+    'Secrétaire seniors'
   );
 
 INSERT INTO diriger (
@@ -77,39 +107,57 @@ INSERT INTO diriger (
 VALUES  -- JSOMA
   (
     '1',
-    '2022',
+    '2021-2022',
     'JSOMA'
   ),
   (
     '2',
-    '2022',
+    '2021-2022',
     'JSOMA'
   ),
   (
     '3',
-    '2022',
+    '2021-2022',
     'JSOMA'
   ),
     -- CMBK;
   (
     '4',
-    '2022',
+    '2021-2022',
     'CMBK'
   ),
   -- WRDBK
   (
     '5',
-    '2022',
+    '2021-2022',
     'WRDBK'
   ),
   (
     '6',
-    '2022',
+    '2021-2022',
     'WRDBK'
   ),
   -- ESMBR
   (
     '7',
-    '2022',
+    '2021-2022',
     'ESMBR'
+  ),
+  -- CRD
+    (
+    '8',
+    '2021-2022',
+    'CRD'
+  ),(
+    '9',
+    '2021-2022',
+    'CRD'
+  ),(
+    '10',
+    '2021-2022',
+    'CRD'
+  ),(
+    '11',
+    '2021-2022',
+    'CRD'
   );

@@ -142,6 +142,50 @@ VALUES
         'Constantine',
         'Algerien',
         'Entraîneur adjoint'
+    ),
+    -- CRD
+    (
+        'DJABALI',
+        'Badredine',
+        '1971-11-10',
+        'SIDI MHAMED, Alger',
+        'Algerien',
+        'Entraîneur principal'
+    ),(
+        'KHENIFI',
+        'Sid Ali',
+        '1982-05-15',
+        'Alger',
+        'Algerien',
+        'Entraîneur principal'
+    ),(
+        'MOSTEFAOUI',
+        'Hamza',
+        '1981-07-30',
+        'Kouba, Alger',
+        'Algerien',
+        'Entraîneur principal'
+    ),(
+        'BELKACEMI',
+        'Mohamed Riad',
+        '1973-07-19',
+        'ALGER CENTRE, Alger',
+        'Algerien',
+        'Entraîneur principal'
+    ),(
+        'RIACHE',
+        'Ihssan',
+        '1983-03-24',
+        'Hussein-Dey, Alger',
+        'Algerien',
+        'Entraîneur adjoint'
+    ),(
+        'ELZAANINE',
+        'Salam',
+        '1999-01-12',
+        'kouba, Alger',
+        'Algerien',
+        'Entraîneur adjoint'
     );
 
 INSERT INTO entrainer (
@@ -154,102 +198,134 @@ VALUES
     -- JSOMA
       (
         '1',
-        '2022',
+        '2021-2022',
         'JSOMA',
         'Senior'
       ),
       (
         '2',
-        '2022',
+        '2021-2022',
         'JSOMA',
         'U17'
       ),
       (
         '3',
-        '2022',
+        '2021-2022',
         'JSOMA',
         'U15'
       ),
       (
         '4',
-        '2022',
+        '2021-2022',
         'JSOMA',
         'U19'
       ),
         -- CMBK
       (
         '5',
-        '2022',
+        '2021-2022',
         'CMBK',
         'U17'
       ),
       (
         '6',
-        '2022',
+        '2021-2022',
         'CMBK',
         'U19'
       ),
       (
         '7',
-        '2022',
+        '2021-2022',
         'CMBK',
         'U15'
       ),
       (
         '8',
-        '2022',
+        '2021-2022',
         'CMBK',
         'Senior'
       ),
       -- WRDBK
       (
         '9',
-        '2022',
+        '2021-2022',
         'WRDBK',
         'Senior'
       ),
       (
         '10',
-        '2022',
+        '2021-2022',
         'WRDBK',
         'U17'
       ),
       (
         '11',
-        '2022',
+        '2021-2022',
         'WRDBK',
         'U15'
       ),
       (
         '12',
-        '2022',
+        '2021-2022',
         'WRDBK',
         'U19'
       ),
       -- ESMBR
       (
         '13',
-        '2022',
+        '2021-2022',
         'ESMBR',
         'Senior'
     ),(
         '14',
-        '2022',
+        '2021-2022',
         'ESMBR',
         'U19'
     ),(
         '15',
-        '2022',
+        '2021-2022',
         'ESMBR',
         'U15'
     ),(
         '16',
-        '2022',
+        '2021-2022',
         'ESMBR',
         'U17'
     ),(
         '17',
-        '2022',
+        '2021-2022',
         'ESMBR',
         'Senior'
+    ),
+    -- CRD
+    (
+        '18',
+        '2021-2022',
+        'CRD',
+        'Senior'
+    ),(
+        '19',
+        '2021-2022',
+        'CRD',
+        'U15'
+    ),(
+        '20',
+        '2021-2022',
+        'CRD',
+        'U17'
+    ),(
+        '21',
+        '2021-2022',
+        'CRD',
+        'U19'
+    ),(
+        '22',
+        '2021-2022',
+        'CRD',
+        'Senior'
+    ),(
+        '23',
+        '2021-2022',
+        'CRD',
+        'U15'
     );
