@@ -19,7 +19,7 @@ CREATE TABLE Equipe(
 );
 
 CREATE TABLE Entraineur( 
-   personne_id VARCHAR(50),
+   personne_id INT AUTO_INCREMENT,
    nom VARCHAR(50),
    prenom VARCHAR(50),
    date_de_naissance DATE,
@@ -30,7 +30,7 @@ CREATE TABLE Entraineur(
 );
 
 CREATE TABLE Dirigeant( 
-   personne_id VARCHAR(50),
+   personne_id INT AUTO_INCREMENT,
    nom VARCHAR(50),
    prenom VARCHAR(50),
    date_de_naissance DATE,
@@ -46,7 +46,7 @@ CREATE TABLE Saison(
 );
 
 CREATE TABLE Arbitre( 
-   personne_id VARCHAR(50),
+   personne_id INT AUTO_INCREMENT,
    nom VARCHAR(50),
    prenom VARCHAR(50),
    date_de_naissance DATE,
@@ -61,7 +61,7 @@ CREATE TABLE Region(
 );
 
 CREATE TABLE Joueur(
-   personne_id VARCHAR(50),
+   personne_id INT AUTO_INCREMENT,
    nom VARCHAR(50),
    prenom VARCHAR(50),
    date_de_naissance DATE,
@@ -103,8 +103,8 @@ CREATE TABLE Groupe(
 );
 
 CREATE TABLE Rencontre(
+   rencontre_id INT AUTO_INCREMENT,
    saison VARCHAR(50),
-   rencontre_id INT,
    date_rencontre DATE,
    club_id_a VARCHAR(10) NOT NULL,
    categorie_a VARCHAR(50) NOT NULL,
@@ -113,7 +113,7 @@ CREATE TABLE Rencontre(
    wilaya VARCHAR(50) NOT NULL,
    stade VARCHAR(50) NOT NULL,
    check(categorie_a=categorie_b),
-   PRIMARY KEY(saison, rencontre_id),
+   PRIMARY KEY(rencontre_id),
    FOREIGN KEY(saison) REFERENCES Saison(saison),
    FOREIGN KEY(club_id_a, categorie_a) REFERENCES Equipe(club_id, categorie),
    FOREIGN KEY(wilaya, stade) REFERENCES Stade(wilaya, stade),
@@ -121,12 +121,11 @@ CREATE TABLE Rencontre(
 );
 
 CREATE TABLE But(
-   saison VARCHAR(50),
    rencontre_id INT,
-   personne_id VARCHAR(50),
+   personne_id INT,
    minute_but VARCHAR(50),
-   PRIMARY KEY(saison, rencontre_id, personne_id, minute_but),
-   FOREIGN KEY(saison, rencontre_id) REFERENCES Rencontre(saison, rencontre_id),
+   PRIMARY KEY(rencontre_id, personne_id, minute_but),
+   FOREIGN KEY(rencontre_id) REFERENCES Rencontre(rencontre_id),
    FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id)
 );
 
@@ -143,7 +142,7 @@ CREATE TABLE Grouper(
 );
 
 CREATE TABLE Diriger(
-   personne_id VARCHAR(50),
+   personne_id INT,
    saison VARCHAR(50),
    club_id VARCHAR(10) NOT NULL,
    PRIMARY KEY(personne_id, saison),
@@ -153,7 +152,7 @@ CREATE TABLE Diriger(
 );
 
 CREATE TABLE Entrainer(
-   personne_id VARCHAR(50),
+   personne_id INT,
    saison VARCHAR(50),
    club_id VARCHAR(10) NOT NULL,
    categorie VARCHAR(50) NOT NULL,
@@ -164,7 +163,7 @@ CREATE TABLE Entrainer(
 );
 
 CREATE TABLE Jouer(
-   personne_id VARCHAR(50),
+   personne_id INT,
    saison VARCHAR(50),
    poste VARCHAR(50),
    club_id VARCHAR(10) NOT NULL,
@@ -177,11 +176,10 @@ CREATE TABLE Jouer(
 );
 
 CREATE TABLE Arbitrer(
-   saison VARCHAR(50),
    rencontre_id INT,
-   personne_id VARCHAR(50),
+   personne_id INT,
    poste VARCHAR(50),
-   PRIMARY KEY(saison, rencontre_id, personne_id),
-   FOREIGN KEY(saison, rencontre_id) REFERENCES Rencontre(saison, rencontre_id),
+   PRIMARY KEY(rencontre_id, personne_id),
+   FOREIGN KEY(rencontre_id) REFERENCES Rencontre(rencontre_id),
    FOREIGN KEY(personne_id) REFERENCES Arbitre(personne_id)
 );

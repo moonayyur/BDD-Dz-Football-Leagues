@@ -83,10 +83,86 @@
 --     023740101,
 --     'Rouge',
 --     'Vert'
+--   ),(
+--     'JSOMA',
+--     'J.S.O Maamria',
+--     'rut principal stade communal heuraoua arbi abdelouahab',
+--     '2006-1-1',
+--     023958098,
+--     023958098,
+--     'Vert',
+--     'Rouge'
+--   ),
+--   (
+--     'CMBK',
+--     'C.M BORDJ EL-KIFFAN',
+--     'Cité Bounâama Bt B N°04',
+--     '1994-1-1',
+--     0771512397,
+--     023801760,
+--     'Rouge',
+--     'Vert'
+--   ),
+--   (
+--     'WRDBK',
+--     'W.R.D BORDJ EL-KIFFAN',
+--     'Salle multisport cité 11 décembre 1960 APC BORDJ EL KIFFANE',
+--     '1992-1-1',
+--     0656948536,
+--     null,
+--     'Vert',
+--     'Rouge'
 --   );
 
 -- INSERT INTO equipe (club_id, categorie)
 -- VALUES (
+--     'JSOMA',
+--     'Senior'
+--   ),
+--   (
+--     'JSOMA',
+--     'U19'
+--   ),
+--   (
+--     'JSOMA',
+--     'U17'
+--   ),
+--   (
+--     'JSOMA',
+--     'U15'
+--   ),
+--   (
+--     'CMBK',
+--     'Senior'
+--   ),
+--   (
+--     'CMBK',
+--     'U19'
+--   ),
+--   (
+--     'CMBK',
+--     'U17'
+--   ),
+--   (
+--     'CMBK',
+--     'U15'
+--   ),
+--   (
+--     'WRDBK',
+--     'Senior'
+--   ),
+--   (
+--     'WRDBK',
+--     'U19'
+--   ),
+--   (
+--     'WRDBK',
+--     'U17'
+--   ),
+--   (
+--     'WRDBK',
+--     'U15'
+--   ),(
 --     'ESMBR',
 --     'Senior'
 --   ),(
@@ -104,7 +180,6 @@
 --   );
 
 -- INSERT INTO dirigeant (
---     personne_id,
 --     nom,
 --     prenom,
 --     date_de_naissance,
@@ -112,8 +187,60 @@
 --     nationalite,
 --     profession
 --   )
--- VALUES (
---     '1000',
+-- VALUES -- JSOMA
+--   (
+--     'BELLAZOUZ',
+--     'Farid',
+--     '1969-9-9',
+--     'SIDI MHAMED, Alger',
+--     'Algerien',
+--     'Président du CSA'
+--   ),
+--   (
+--     'SAHI',
+--     'Rezkallah',
+--     '1960-11-19',
+--     'ROUIBA, Alger',
+--     'Algerien',
+--     'Président de Section'
+--   ),
+--   (
+--     'IKHLEF ESCHOUF',
+--     'Ishak',
+--     '1999-11-8',
+--     'AIN TAYA, Alger',
+--     'Algerien',
+--     'Secrétaire Général'
+--   ),
+--     -- CMBK
+--   (
+--     'DJADI',
+--     'Abdellah',
+--     '1972-5-12',
+--     'Bordj El Kiffan, Alger',
+--     'Algerien',
+--     'Secrétaire seniors'
+--   ),
+--   -- WRDBK
+--   (
+--     'HATEM',
+--     'Djillali',
+--     '1963-6-28',
+--     'SIDI MHAMED, Alger',
+--     'Algerien',
+--     'Soigneur'
+--   ),
+--   (
+--     'CHEMLAL',
+--     'Adel',
+--     '1981-6-23',
+--     'BAB EL OUED, Alger',
+--     'Algerien',
+--     'Secrétaire seniors'
+--   ),
+  
+--   -- ESMBR
+--   (
 --     'OUAHABI',
 --     'Bachir',
 --     '1961-12-26',
@@ -127,14 +254,47 @@
 --     saison,
 --     club_id
 --   )
--- VALUES (
---     '1000',
+-- VALUES  -- JSOMA
+--   (
+--     '1',
+--     '2022',
+--     'JSOMA'
+--   ),
+--   (
+--     '2',
+--     '2022',
+--     'JSOMA'
+--   ),
+--   (
+--     '3',
+--     '2022',
+--     'JSOMA'
+--   ),
+--     -- CMBK;
+--   (
+--     '4',
+--     '2022',
+--     'CMBK'
+--   ),
+--   -- WRDBK
+--   (
+--     '5',
+--     '2022',
+--     'WRDBK'
+--   ),
+--   (
+--     '6',
+--     '2022',
+--     'WRDBK'
+--   ),
+--   -- ESMBR
+--   (
+--     '7',
 --     '2022',
 --     'ESMBR'
 --   );
 
 -- INSERT INTO entraineur (
---     personne_id,
 --     nom,
 --     prenom,
 --     date_de_naissance,
@@ -142,8 +302,108 @@
 --     nationalite,
 --     profession
 --   )
--- VALUES (
---     '1001',
+-- VALUES 
+--  -- JSOMA
+--     (
+--       'RAHIM',
+--       'Youcef',
+--       '1981-10-14',
+--       'HUSSEIN DEY, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'KHERABI',
+--       'Fares',
+--       '1992-1-22',
+--       'ROUIBA, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'BEN SADOUNI',
+--       'Laid',
+--       '1984-3-10',
+--       'AIN TAYA, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'ABDELLAOUI',
+--       'Azzeddine',
+--       '1974-12-4',
+--       'ROUIBA, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--       -- CMBK
+--     (
+--       'ABDESLAM',
+--       'Mohand Cherif',
+--       '1995-9-20',
+--       'Ain El Hammam, Tizi ouzou',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'NEBBOU',
+--       'Billel',
+--       '1995-6-28',
+--       'Hussein-Dey, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'ALIOUA',
+--       'Rèda',
+--       '1978-3-12',
+--       'Bordj El Kiffan, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'DJEBROUNI',
+--       'Mohamed',
+--       '1971-4-26',
+--       'Bordj El Kiffan, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     -- WRDBK
+--     (
+--       'BENMORSLI',
+--       'Mohamed',
+--       '1965-8-29',
+--       'kasbah, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'HAOULAY',
+--       'Kamel',
+--       '1949-2-6',
+--       'ALGER CENTRE, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'AIT-SEDDIK',
+--       'Tahar',
+--       '1954-2-12',
+--       'FRIHA, Tizi ouzou',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     (
+--       'LAZEGHED',
+--       'Fateh',
+--       '1986-3-17',
+--       'CASBAH, Alger',
+--       'Algerien',
+--       'Entraîneur principal'
+--     ),
+--     -- ESMBR
+--     (
 --     'DEFFAF',
 --     'Abdelhamid',
 --     '1983-06-26',
@@ -151,7 +411,6 @@
 --     'Algerien',
 --     'Entraîneur principal'
 --   ),(
---     '1002',
 --     'ZAIOU',
 --     'Faycel',
 --     '1994-08-10',
@@ -159,7 +418,6 @@
 --     'Algerien',
 --     'Entraîneur principal'
 --   ),(
---     '1003',
 --     'DRAOUI',
 --     'Khaled',
 --     '1992-08-17',
@@ -167,7 +425,6 @@
 --     'Algerien',
 --     'Entraîneur principal'
 --   ),(
---     '1005',
 --     'BENCHERNIN',
 --     'Hocine',
 --     '1978-01-11',
@@ -175,7 +432,6 @@
 --     'Algerien',
 --     'Entraîneur principal'
 --   ),(
---     '1006',
 --     'BENDADA',
 --     'Azziz',
 --     '1982-08-01',
@@ -186,34 +442,111 @@
 
 -- INSERT INTO entrainer (
 --     personne_id,
---     club_id,
 --     saison,
+--     club_id,
 --     categorie
 --   )
--- VALUES (
---     '1001',
---     'ESMBR',
+-- VALUES 
+-- -- JSOMA
+--       (
+--         '1',
+--         '2022',
+--         'JSOMA',
+--         'Senior'
+--       ),
+--       (
+--         '2',
+--         '2022',
+--         'JSOMA',
+--         'U17'
+--       ),
+--       (
+--         '3',
+--         '2022',
+--         'JSOMA',
+--         'U15'
+--       ),
+--       (
+--         '4',
+--         '2022',
+--         'JSOMA',
+--         'U19'
+--       ),
+--         -- CMBK
+--       (
+--         '5',
+--         '2022',
+--         'CMBK',
+--         'U17'
+--       ),
+--       (
+--         '6',
+--         '2022',
+--         'CMBK',
+--         'U19'
+--       ),
+--       (
+--         '7',
+--         '2022',
+--         'CMBK',
+--         'U15'
+--       ),
+--       (
+--         '8',
+--         '2022',
+--         'CMBK',
+--         'Senior'
+--       ),
+--       -- WRDBK
+--       (
+--         '9',
+--         '2022',
+--         'WRDBK',
+--         'Senior'
+--       ),
+--       (
+--         '10',
+--         '2022',
+--         'WRDBK',
+--         'U17'
+--       ),
+--       (
+--         '11',
+--         '2022',
+--         'WRDBK',
+--         'U15'
+--       ),
+--       (
+--         '12',
+--         '2022',
+--         'WRDBK',
+--         'U19'
+--       ),
+--       -- ESMBR
+--       (
+--     '13',
 --     '2022',
+--     'ESMBR',
 --     'Senior'
 --   ),(
---     '1002',
---     'ESMBR',
+--     '14',
 --     '2022',
+--     'ESMBR',
 --     'U19'
 --   ),(
---     '1003',
---     'ESMBR',
+--     '15',
 --     '2022',
+--     'ESMBR',
 --     'U15'
 --   ),(
---     '1005',
---     'ESMBR',
+--     '16',
 --     '2022',
+--     'ESMBR',
 --     'U17'
 --   ),(
---     '1006',
---     'ESMBR',
+--     '17',
 --     '2022',
+--     'ESMBR',
 --     'Senior'
 --   );
 
@@ -222,29 +555,145 @@
 
 
 -- INSERT INTO joueur (
---     personne_id,
 --     nom,
 --     prenom,
 --     date_de_naissance,
 --     lieu_de_naissance,
 --     nationalite
 --   )
--- VALUES  (
---     '1007',
+-- VALUES  -- JSOMA 1 to 10
+-- (
+--     'BERROUSSI',
+--     'Imad',
+--     '2000-6-18',
+--     'el harrache, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'LEBCIR',
+--     'Abderazzak',
+--     '1988-7-5',
+--     'BOUSSAADA, Msila',
+--     'Algerien'
+--   ),
+--   (
+--     'BAHMED',
+--     'Toufik',
+--     '1996-10-20',
+--     'H-DEY, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'TAGAOUNAMANE',
+--     'Billal',
+--     '1991-7-17',
+--     'REGHAIA, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'ATTIG',
+--     'Ahmed Aymen Eddine',
+--     '1995-7-3',
+--     'heuraoua, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'AROUS',
+--     'Rafik',
+--     '1995-5-28',
+--     'AIN TAYA, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'BENDECHACHE',
+--     'Mohamed Lamine',
+--     '1992-3-19',
+--     'rouiba, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'BEHAR',
+--     'Mokhtar',
+--     '2000-2-13',
+--     'rouiba, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'DJEMMAH',
+--     'Oussama',
+--     '1995-6-19',
+--     'rouiba, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'FEZZA',
+--     'Chouaib',
+--     '2001-2-6',
+--     'beni messous, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'BOUAFIA',
+--     'Ahmed Alamine',
+--     '1999-5-28',
+--     'reghaia, Alger',
+--     'Algerien'
+--   ), -- CMBK 12 to 14 
+--   (
+--     'BEN NAOUI',
+--     'Asil',
+--     '1997-2-8',
+--     'Hussein Dey, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'GHEBOULI',
+--     'Salah-Edine',
+--     '2001-9-6',
+--     'Bouaandas, Setif',
+--     'Algerien'
+--   ),
+--   (
+--     'REZAOUI',
+--     'Slimane',
+--     '2002-1-17',
+--     'Bordj El Kiffan, Alger',
+--     'Algerien'
+--   ), -- WRDBK 15 to 17
+--   (
+--     'HAMMAD',
+--     'Mourad',
+--     '1992-2-20',
+--     'Dellys, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'TIAIBA',
+--     'Lyes',
+--     '2001-5-23',
+--     'HUSSEIN DEY, Alger',
+--     'Algerien'
+--   ),
+--   (
+--     'MESSAOUD',
+--     'Sofiane',
+--     '1980-1-15',
+--     'Alger',
+--     'Algerien'
+--   ),  -- ESMBR 18 to 20
+--   (
 --     'NACER-BEY',
 --     'Mohamed Amine',
 --     '1994-07-08',
 --     'Omar, Bouira',
 --     'Algerien'
 --   ),(
---     '1008',
 --     'KESRAOUI',
 --     'Islam',
 --     '1994-10-08',
 --     'H DEY, Alger',
 --     'Algerien'
 --   ),(
---     '1009',
 --     'RAHLI',
 --     'Mounir',
 --     '1988-10-08',
@@ -261,22 +710,162 @@
 --       categorie,
 --       numero
 --     )
---   VALUES (
---       '1007',
+--   VALUES -- JSOMA
+--   (
+--     '1',
+--     '2022',
+--     'Gardien de but',
+--     'JSOMA',
+--     'Senior',
+--     '1'
+--   ),
+--   (
+--     '2',
+--     '2022',
+--     'Gardien de but',
+--     'JSOMA',
+--     'Senior',
+--     '30'
+--   ),
+--   (
+--     '3',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '4'
+--   ),
+--   (
+--     '4',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '18'
+--   ),
+--   (
+--     '5',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '28'
+--   ),
+--   (
+--     '6',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '2'
+--   ),
+--   (
+--     '7',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '3'
+--   ),
+--   (
+--     '8',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '22'
+--   ),
+--   (
+--     '9',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '14'
+--   ),
+--   (
+--     '10',
+--     '2022',
+--     'Défenseur',
+--     'JSOMA',
+--     'Senior',
+--     '21'
+--   ),
+--   (
+--     '11',
+--     '2022',
+--     'Milieu de terrain',
+--     'JSOMA',
+--     'Senior',
+--     '19'
+--   ),
+  
+--     -- CMBK
+--   (
+--     '12',
+--     '2022',
+--     'Gardien de but',
+--     'CMBK',
+--     'Senior',
+--     '1'
+--   ),
+--   (
+--     '13',
+--     '2022',
+--     'Défenseur',
+--     'CMBK',
+--     'Senior',
+--     '20'
+--   ),
+--   (
+--     '14',
+--     '2022',
+--     'Milieu de terrain',
+--     'CMBK',
+--     'Senior',
+--     '6'
+--   ),
+--   (
+--     '15',
+--     '2022',
+--     'Gardien de but',
+--     'WRDBK',
+--     'Senior',
+--     '16'
+--   ),
+--   (
+--     '16',
+--     '2022',
+--     'Défenseur',
+--     'WRDBK',
+--     'Senior',
+--     '29'
+--   ),
+--   (
+--     '17',
+--     '2022',
+--     'Milieu de terrain',
+--     'WRDBK',
+--     'Senior',
+--     '19'
+--   ),
+--   -- ESMBR
+--     (
+--       '18',
 --       '2022',
 --       'Gardien de but',
 --       'ESMBR',
 --       'Senior',
 --       '1'
 --     ),(
---       '1008',
+--       '19',
 --       '2022',
 --       'Gardien de but',
 --       'ESMBR',
 --       'Senior',
 --       '30'
 --     ),(
---       '1009',
+--       '20',
 --       '2022',
 --       'Défenseur',
 --       'ESMBR',
