@@ -99,31 +99,25 @@
 --     'Rouge'
 --   );
 
--- INSERT INTO equipe (club_id, categorie)
+
+--   INSERT INTO equipe (club_id, categorie)
 -- VALUES (
 --     'ESMBR',
 --     'Senior'
---   );
--- INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U19'
---   );
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U17'
---   );
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U15'
---   );  
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U13'
 --   );
+
 
 -- INSERT INTO dirigeant (
 --     personne_id,
