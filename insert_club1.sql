@@ -1,7 +1,7 @@
 INSERT INTO club (
     club_id,
     nom,
-    adress,
+    adresse,
     date_de_creation,
     telephone,
     faxe,
@@ -116,4 +116,127 @@ VALUES (
     '1999-5-28',
     'reghaia, Alger',
     'Algerien'
+  );
+
+
+
+INSERT INTO equipe (club_id, categorie)
+VALUES (
+    'JSOMA',
+    'Senior'
+  ),
+  (
+    'JSOMA',
+    'U19'
+  ),
+  (
+    'JSOMA',
+    'U17'
+  ),
+  (
+    'JSOMA',
+    'U15'
+  ),
+  (
+    'JSOMA',
+    'U13'
+  );
+
+
+
+INSERT INTO jouer (
+    personne_id,
+    saison,
+    poste,
+    club_id,
+    categorie,
+    numero
+  )
+VALUES (
+    '1',
+    '2022',
+    'Gardien de but',
+    'JSOMA',
+    'Senior',
+    '1'
+  ),
+  (
+    '2',
+    '2022',
+    'Gardien de but',
+    'JSOMA',
+    'Senior',
+    '30'
+  ),
+  (
+    '3',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '4'
+  ),
+  (
+    '4',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '18'
+  ),
+  (
+    '5',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '28'
+  ),
+  (
+    '6',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '2'
+  ),
+  (
+    '7',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '3'
+  ),
+  (
+    '8',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '22'
+  ),
+  (
+    '9',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '14'
+  ),
+  (
+    '10',
+    '2022',
+    'Défenseur',
+    'JSOMA',
+    'Senior',
+    '21'
+  ),
+  (
+    '11',
+    '2022',
+    'Milieu de terrain',
+    'JSOMA',
+    'Senior',
+    '19'
   );
