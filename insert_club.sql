@@ -71,7 +71,7 @@
 -- INSERT INTO club (
 --     club_id,
 --     nom,
---     adress,
+--     adresse,
 --     date_de_creation,
 --     telephone,
 --     faxe,
