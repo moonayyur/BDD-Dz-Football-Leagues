@@ -17,18 +17,8 @@
 --     023740101,
 --     'Rouge',
 --     'Vert'
---   );
--- INSERT INTO club (
---     club_id,
---     nom,
---     adresse,
---     date_de_creation,
---     telephone,
---     faxe,
---     couleur_principale,
---     couleur_réserve
---   )
--- VALUES (
+--   ),
+--   (
 --     'JSOMA',
 --     'J.S.O Maamria',
 --     'rut principal stade communal heuraoua arbi abdelouahab',
