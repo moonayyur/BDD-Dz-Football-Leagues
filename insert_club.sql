@@ -93,9 +93,7 @@
 -- VALUES (
 --     'ESMBR',
 --     'Senior'
---   );
--- INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U19'
 --   );
@@ -229,6 +227,10 @@
 --     'Senior'
 --   );
 
+
+
+
+
 -- INSERT INTO joueur (
 --     personne_id,
 --     nom,
@@ -237,47 +239,57 @@
 --     lieu_de_naissance,
 --     nationalite
 --   )
--- VALUES (
+-- VALUES  (
 --     '1007',
 --     'NACER-BEY',
 --     'Mohamed Amine',
 --     '1994-07-08',
 --     'Omar, Bouira',
 --     'Algerien'
+--   ),(
+--     '1008',
+--     'KESRAOUI',
+--     'Islam',
+--     '1994-10-08',
+--     'H DEY, Alger',
+--     'Algerien'
+--   ),(
+--     '1009',
+--     'RAHLI',
+--     'Mounir',
+--     '1988-10-08',
+--     'ROUIBA, Alger',
+--     'Algerien'
 --   );
 
-INSERT INTO jouer (
-      personne_id,
-      saison,
-      poste,
-      club_id,
-      categorie,
-      numero
-    )
-  VALUES (
-      'personne_id:varchar',
-      'saison:varchar',
-      'poste:varchar',
-      'club_id:varchar',
-      'categorie:varchar',
-      'numero:smallint'
-    );
 
-INSERT INTO joueur (
-    personne_id,
-    nom,
-    prenom,
-    date_de_naissance,
-    lieu_de_naissance,
-    nationalite
-  )
-VALUES (
-    '1007',
-    'NACER-BEY',
-    'Mohamed Amine',
-    '1994-07-08',
-    'Omar, Bouira',
-    'Algerien'
-  );
-
-  
+--   INSERT INTO jouer (
+--       personne_id,
+--       saison,
+--       poste,
+--       club_id,
+--       categorie,
+--       numero
+--     )
+--   VALUES (
+--       '1007',
+--       '2022',
+--       'Gardien de but',
+--       'ESMBR',
+--       'Senior',
+--       '1'
+--     ),(
+--       '1008',
+--       '2022',
+--       'Gardien de but',
+--       'ESMBR',
+--       'Senior',
+--       '30'
+--     ),(
+--       '1009',
+--       '2022',
+--       'Défenseur',
+--       'ESMBR',
+--       'Senior',
+--       '24'
+--     );
