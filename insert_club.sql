@@ -78,8 +78,7 @@
 --     couleur_principale,
 --     couleur_réserve
 --   )
--- VALUES 
---   (
+-- VALUES (
 --     'ESMBR',
 --     'E.S.M.B REGHAIA',
 --     'حي محمد الباي الرغاية',
@@ -90,25 +89,31 @@
 --     'Vert'
 --   );
 
-
---   INSERT INTO equipe (club_id, categorie)
+-- INSERT INTO equipe (club_id, categorie)
 -- VALUES (
 --     'ESMBR',
 --     'Senior'
---   ),(
+--   );
+-- INSERT INTO equipe (club_id, categorie)
+-- VALUES (
 --     'ESMBR',
 --     'U19'
---   ),(
+--   );
+--   INSERT INTO equipe (club_id, categorie)
+-- VALUES (
 --     'ESMBR',
 --     'U17'
---   ),(
+--   );
+--   INSERT INTO equipe (club_id, categorie)
+-- VALUES (
 --     'ESMBR',
 --     'U15'
---   ),(
+--   );  
+--   INSERT INTO equipe (club_id, categorie)
+-- VALUES (
 --     'ESMBR',
 --     'U13'
 --   );
-
 
 -- INSERT INTO dirigeant (
 --     personne_id,
@@ -240,3 +245,39 @@
 --     'Omar, Bouira',
 --     'Algerien'
 --   );
+
+INSERT INTO jouer (
+      personne_id,
+      saison,
+      poste,
+      club_id,
+      categorie,
+      numero
+    )
+  VALUES (
+      'personne_id:varchar',
+      'saison:varchar',
+      'poste:varchar',
+      'club_id:varchar',
+      'categorie:varchar',
+      'numero:smallint'
+    );
+
+INSERT INTO joueur (
+    personne_id,
+    nom,
+    prenom,
+    date_de_naissance,
+    lieu_de_naissance,
+    nationalite
+  )
+VALUES (
+    '1007',
+    'NACER-BEY',
+    'Mohamed Amine',
+    '1994-07-08',
+    'Omar, Bouira',
+    'Algerien'
+  );
+
+  
