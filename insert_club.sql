@@ -37,8 +37,7 @@
 --     prenom,
 --     date_de_naissance,
 --     lieu_de_naissance,
---     nationalite,
---     numero
+--     nationalite
 --   )
 -- VALUES (
 --     '1',
@@ -46,8 +45,7 @@
 --     'Imad',
 --     '2000-6-18',
 --     'el harrache, Alger',
---     'Algerien',
---     '1'
+--     'Algerien'
 --   ),
 --   (
 --     '2',
@@ -55,8 +53,7 @@
 --     'Abderazzak',
 --     '1988-7-5',
 --     'BOUSSAADA, Msila',
---     'Algerien',
---     '30'
+--     'Algerien'
 --   ),
 --   (
 --     '3',
@@ -64,8 +61,7 @@
 --     'Toufik',
 --     '1996-10-20',
 --     'H-DEY, Alger',
---     'Algerien',
---     '4'
+--     'Algerien'
 --   ),
 --   (
 --     '4',
@@ -73,8 +69,7 @@
 --     'Billal',
 --     '1991-7-17',
 --     'REGHAIA, Alger',
---     'Algerien',
---     '18'
+--     'Algerien'
 --   ),
 --   (
 --     '5',
@@ -82,8 +77,7 @@
 --     'Ahmed Aymen Eddine',
 --     '1995-7-3',
 --     'heuraoua, Alger',
---     'Algerien',
---     '28'
+--     'Algerien'
 --   ),
 --   (
 --     '6',
@@ -91,8 +85,7 @@
 --     'Rafik',
 --     '1995-5-28',
 --     'AIN TAYA, Alger',
---     'Algerien',
---     '2'
+--     'Algerien'
 --   ),
 --   (
 --     '7',
@@ -100,8 +93,7 @@
 --     'Mohamed Lamine',
 --     '1992-3-19',
 --     'rouiba, Alger',
---     'Algerien',
---     '3'
+--     'Algerien'
 --   ),
 --   (
 --     '8',
@@ -109,8 +101,7 @@
 --     'Mokhtar',
 --     '2000-2-13',
 --     'rouiba, Alger',
---     'Algerien',
---     '22'
+--     'Algerien'
 --   ),
 --   (
 --     '9',
@@ -118,8 +109,7 @@
 --     'Oussama',
 --     '1995-6-19',
 --     'rouiba, Alger',
---     'Algerien',
---     '14'
+--     'Algerien'
 --   ),
 --   (
 --     '10',
@@ -127,8 +117,7 @@
 --     'Chouaib',
 --     '2001-2-6',
 --     'beni messous, Alger',
---     'Algerien',
---     '21'
+--     'Algerien'
 --   ),
 --   (
 --     '11',
@@ -136,8 +125,7 @@
 --     'Ahmed Alamine',
 --     '1999-5-28',
 --     'reghaia, Alger',
---     'Algerien',
---     '19'
+--     'Algerien'
 --   );
 
 

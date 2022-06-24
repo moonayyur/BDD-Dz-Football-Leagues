@@ -67,7 +67,6 @@ CREATE TABLE Joueur(
    date_de_naissance DATE,
    lieu_de_naissance VARCHAR(50),
    nationalite VARCHAR(50),
-   numero SMALLINT NOT NULL,
    taille SMALLINT,
    poids SMALLINT,
    PRIMARY KEY(personne_id)
@@ -170,6 +169,7 @@ CREATE TABLE Jouer(
    poste VARCHAR(50),
    club_id VARCHAR(10) NOT NULL,
    categorie VARCHAR(50) NOT NULL,
+   numero SMALLINT NOT NULL,
    PRIMARY KEY(personne_id, saison),
    FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id),
    FOREIGN KEY(saison) REFERENCES Saison(saison),
