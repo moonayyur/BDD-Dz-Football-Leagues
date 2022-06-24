@@ -18,6 +18,16 @@ VALUES
     023958098,
     'Vert',
     'Rouge'
+  ),
+  (
+    'CMBK',
+    'C.M BORDJ EL-KIFFAN',
+    'Cité Bounâama Bt B N°04',
+    '1994-1-1',
+    0771512397,
+    023801760,
+    'Rouge',
+    'Vert'
   );
 
 
@@ -29,7 +39,9 @@ INSERT INTO joueur (
     lieu_de_naissance,
     nationalite
   )
-VALUES (
+VALUES 
+-- JSOMA 1 to 10 (18)
+(
     '1',
     'BERROUSSI',
     'Imad',
@@ -116,6 +128,32 @@ VALUES (
     '1999-5-28',
     'reghaia, Alger',
     'Algerien'
+  ),
+
+  -- CMBK 19 to 21 (26)
+  (
+    '19',
+    'BEN NAOUI',
+    'Asil',
+    '1997-2-8',
+    'Hussein Dey, Alger',
+    'Algerien'
+  ),
+  (
+    '20',
+    'GHEBOULI',
+    'Salah-Edine',
+    '2001-9-6',
+    'Bouaandas, Setif',
+    'Algerien'
+  ),
+  (
+    '21',
+    'REZAOUI',
+    'Slimane',
+    '2002-1-17',
+    'Bordj El Kiffan, Alger',
+    'Algerien'
   );
 
 
@@ -138,8 +176,20 @@ VALUES (
     'U15'
   ),
   (
-    'JSOMA',
-    'U13'
+    'CMBK',
+    'Senior'
+  ),
+  (
+    'CMBK',
+    'U19'
+  ),
+  (
+    'CMBK',
+    'U17'
+  ),
+  (
+    'CMBK',
+    'U15'
   );
 
 
@@ -152,7 +202,9 @@ INSERT INTO jouer (
     categorie,
     numero
   )
-VALUES (
+VALUES
+  -- JSOMA
+  (
     '1',
     '2022',
     'Gardien de but',
@@ -239,6 +291,32 @@ VALUES (
     'JSOMA',
     'Senior',
     '19'
+  ),
+  
+    -- CMBK
+  (
+    '19',
+    '2022',
+    'Gardien de but',
+    'CMBK',
+    'Senior',
+    '1'
+  ),
+  (
+    '20',
+    '2022',
+    'Défenseur',
+    'CMBK',
+    'Senior',
+    '20'
+  ),
+  (
+    '21',
+    '2022',
+    'Milieu de terrain',
+    'CMBK',
+    'Senior',
+    '6'
   );
 
 
@@ -251,7 +329,9 @@ VALUES (
       nationalite,
       profession
     )
-  VALUES (
+  VALUES 
+    -- JSOMA
+    (
       '12',
       'RAHIM',
       'Youcef',
@@ -268,7 +348,8 @@ VALUES (
       'ROUIBA, Alger',
       'Algerien',
       'Entraîneur principal'
-    ),(
+    ),
+    (
       '14',
       'BEN SADOUNI',
       'Laid',
@@ -276,12 +357,50 @@ VALUES (
       'AIN TAYA, Alger',
       'Algerien',
       'Entraîneur principal'
-    ),(
+    ),
+    (
       '15',
       'ABDELLAOUI',
       'Azzeddine',
       '1974-12-4',
       'ROUIBA, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+      -- CMBK
+    (
+      '22',
+      'ABDESLAM',
+      'Mohand Cherif',
+      '1995-9-20',
+      'Ain El Hammam, Tizi ouzou',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '23',
+      'NEBBOU',
+      'Billel',
+      '1995-6-28',
+      'Hussein-Dey, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '24',
+      'ALIOUA',
+      'Rèda',
+      '1978-3-12',
+      'Bordj El Kiffan, Alger',
+      'Algerien',
+      'Entraîneur principal'
+    ),
+    (
+      '25',
+      'DJEBROUNI',
+      'Mohamed',
+      '1971-4-26',
+      'Bordj El Kiffan, Alger',
       'Algerien',
       'Entraîneur principal'
     );
@@ -293,7 +412,9 @@ VALUES (
         club_id,
         categorie
       )
-    VALUES (
+    VALUES
+      -- JSOMA
+      (
         '12',
         '2022',
         'JSOMA',
@@ -316,6 +437,31 @@ VALUES (
         '2022',
         'JSOMA',
         'U19'
+      ),
+        -- CMBK
+       (
+        '22',
+        '2022',
+        'CMBK',
+        'U17'
+      ),
+      (
+        '23',
+        '2022',
+        'CMBK',
+        'U19'
+      ),
+      (
+        '24',
+        '2022',
+        'CMBK',
+        'U15'
+      ),
+      (
+        '25',
+        '2022',
+        'CMBK',
+        'Senior'
       );
 
 
@@ -329,7 +475,9 @@ INSERT INTO dirigeant (
     nationalite,
     profession
   )
-VALUES (
+VALUES 
+  -- JSOMA
+  (
     '16',
     'BELLAZOUZ',
     'Farid',
@@ -355,6 +503,16 @@ VALUES (
     'AIN TAYA, Alger',
     'Algerien',
     'Secrétaire Général'
+  ),
+    -- CMBK;
+  (
+    '26',
+    'DJADI',
+    'Abdellah',
+    '1972-5-12',
+    'Bordj El Kiffan, Alger',
+    'Algerien',
+    'Secrétaire seniors'
   );
 
 
@@ -364,7 +522,9 @@ INSERT INTO diriger (
     saison,
     club_id
   )
-VALUES (
+VALUES
+  -- JSOMA
+  (
     '16',
     '2022',
     'JSOMA'
@@ -378,4 +538,10 @@ VALUES (
     '18',
     '2022',
     'JSOMA'
+  ),
+    -- CMBK;
+  (
+    '26',
+    '2022',
+    'CMBK'
   );
