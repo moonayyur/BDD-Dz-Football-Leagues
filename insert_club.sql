@@ -61,10 +61,6 @@
 --   );
 
 
--- INSERT INTO groupe (wilaya, division, groupe)
--- VALUES ;
-
-
 -- INSERT INTO saison (saison)
 -- VALUES ('2022');
 
@@ -96,19 +92,13 @@
 --   ),(
 --     'ESMBR',
 --     'U19'
---   );
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U17'
---   );
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U15'
---   );  
---   INSERT INTO equipe (club_id, categorie)
--- VALUES (
+--   ),(
 --     'ESMBR',
 --     'U13'
 --   );
