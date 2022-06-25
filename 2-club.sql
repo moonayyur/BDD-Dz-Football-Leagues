@@ -61,38 +61,32 @@ VALUES (
 INSERT INTO grouper (
     club_id,
     saison,
-    wilaya,
     division,
     groupe
   )
 VALUES (
     'ESMBR',
     '2021-2022',
-    'alger',
     'Pré-Honneur',
     '1'
   ),(
     'JSOMA',
     '2021-2022',
-    'alger',
     'Pré-Honneur',
     '1'
   ),(
     'CMBK',
     '2021-2022',
-    'alger',
     'Pré-Honneur',
     '1'
   ),(
     'WRDBK',
     '2021-2022',
-    'alger',
     'Pré-Honneur',
     '1'
   ),(
     'CRD',
     '2021-2022',
-    'alger',
     'Pré-Honneur',
     '1'
   );

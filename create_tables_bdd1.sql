@@ -124,7 +124,7 @@ CREATE TABLE Jouer(
    poste VARCHAR(50),
    club_id VARCHAR(10) NOT NULL,
    categorie VARCHAR(50) NOT NULL,
-   numero SMALLINT NOT NULL,
+   numero SMALLINT,
    PRIMARY KEY(personne_id, saison),
    FOREIGN KEY(personne_id) REFERENCES Joueur(personne_id),
    FOREIGN KEY(saison) REFERENCES Saison(saison),

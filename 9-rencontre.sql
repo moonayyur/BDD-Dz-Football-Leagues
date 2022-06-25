@@ -6,7 +6,6 @@ INSERT INTO rencontre (
     categorie_a,
     club_id_b,
     categorie_b,
-    wilaya,
     stade
   )
 VALUES (
@@ -17,7 +16,6 @@ VALUES (
     'Senior',
     'JSOMA',
     'Senior',
-    'Alger',
     'EL-HAMIZ'
   ),(
     '2021-2022',
@@ -27,7 +25,6 @@ VALUES (
     'Senior',
     'ESMBR',
     'Senior',
-    'Alger',
     'EL-HAMIZ'
   );
 
