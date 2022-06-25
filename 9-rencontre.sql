@@ -1,5 +1,6 @@
 INSERT INTO rencontre (
     saison,
+    journee,
     date_rencontre,
     club_id_a,
     categorie_a,
@@ -10,6 +11,7 @@ INSERT INTO rencontre (
   )
 VALUES (
     '2021-2022',
+    '1',
     '2022-02-5',
     'CRD',
     'Senior',
@@ -19,6 +21,7 @@ VALUES (
     'EL-HAMIZ'
   ),(
     '2021-2022',
+    '1',
     '2022-03-19',
     'CRD',
     'Senior',

@@ -151,6 +151,7 @@ CREATE TABLE Jouer(
 CREATE TABLE Rencontre(
    rencontre_id INT AUTO_INCREMENT,
    saison VARCHAR(50),
+   journee INT NOT NULL,
    date_rencontre DATE,
    club_id_a VARCHAR(10) NOT NULL,
    categorie_a VARCHAR(50) NOT NULL,
