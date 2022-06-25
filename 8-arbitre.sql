@@ -27,4 +27,16 @@ VALUES (
     'berkati',
     'rachid',
     'Algerien'
+  ),(
+    'mengalati',
+    'hamid',
+    'Algerien'
+  ),(
+    'taieb',
+    'youcef',
+    'Algerien'
+  ),(
+    'benchouiha',
+    'mahdi',
+    'Algerien'
   );

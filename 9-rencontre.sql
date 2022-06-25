@@ -26,6 +26,15 @@ VALUES (
     'ESMBR',
     'Senior',
     'EL-HAMIZ'
+  ),(
+    '2021-2022',
+    '7',
+    '2022-02-26',
+    'JSOMA',
+    'Senior',
+    'ESMBR',
+    'Senior',
+    'EL-HAMIZ'
   );
 
 
@@ -54,6 +63,16 @@ INSERT INTO but (
       2,
       382,
       55
+    ),
+    -- rencontre 3
+    (
+      3,
+      277,
+      15
+    ), (
+      3,
+      268,
+      90
     );
     
     INSERT INTO arbitrer (
@@ -84,5 +103,17 @@ INSERT INTO but (
     ),(
       2,
       6,
+      'Assistant 2'
+    ),(
+      3,
+      7,
+      'Arbitre'
+    ),(
+      3,
+      8,
+      'Assistant 1'
+    ),(
+      3,
+      9,
       'Assistant 2'
     );
