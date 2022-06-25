@@ -38,25 +38,25 @@ INSERT INTO but (
       minute_but
     )
   VALUES 
-    -- rencontre 2
+    -- rencontre 1
     (
       1,
-      11,
+      21, 
       32
     ),(
       1,
-      11,
+      7,
       67
     ),(
       1,
-      23,
-      23
+      383,
+      76
     ),
     -- rencontre 2
     (
       2,
-      23,
-      23
+      382,
+      55
     );
     
     INSERT INTO arbitrer (
