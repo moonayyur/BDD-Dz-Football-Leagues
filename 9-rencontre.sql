@@ -10,7 +10,7 @@ INSERT INTO rencontre (
   )
 VALUES (
     '2021-2022',
-    '1',
+    '4',
     '2022-02-5',
     'CRD',
     'Senior',
@@ -19,7 +19,7 @@ VALUES (
     'EL-HAMIZ'
   ),(
     '2021-2022',
-    '1',
+    '11',
     '2022-03-19',
     'CRD',
     'Senior',
