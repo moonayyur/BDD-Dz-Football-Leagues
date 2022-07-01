@@ -17,5 +17,5 @@ Drop TABLE Equipe;
 Drop TABLE Club;
 
 -- juste pour bdd 2
-Drop TABLE Wilaya;
-Drop TABLE Region;
+-- Drop TABLE Wilaya;
+-- Drop TABLE Region;

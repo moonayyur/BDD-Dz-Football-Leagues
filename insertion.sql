@@ -7444,9 +7444,13 @@ VALUES -- JSOMA
     NULL
     );
 
-    --Stade 
-    INSERT INTO stade (stade, capacite)
-VALUES (
+   -- Stade 
+    
+  INSERT INTO stade 
+  (stade,
+   capacite
+   )
+  VALUES (
     'EL-HAMIZ',
     '10000'
   );
@@ -7458,7 +7462,7 @@ VALUES (
     prenom,
     nationalite
   )
-VALUES (
+  VALUES (
     'BOURAHLA',
     'Boualem',
     'Algerien'
