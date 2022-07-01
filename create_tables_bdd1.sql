@@ -1,3 +1,5 @@
+-- USE Footballdz;
+
 CREATE TABLE Club(
    club_id VARCHAR(10),
    nom VARCHAR(50) NOT NULL,
