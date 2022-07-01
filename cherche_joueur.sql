@@ -1,1 +1,0 @@
-select personne_id from joueur where nom="BENTABET"

@@ -1,0 +1,26 @@
+-- select personne_id from joueur where nom="BENTABET";
+
+-- select personne_id, club_id
+-- from joueur
+-- join
+-- (
+--     select personne_id, club_id
+--     from jouer
+-- )
+-- as a
+-- using(personne_id);
+
+-- select *
+-- from arbitre
+-- natural JOIN
+-- (
+--     select *
+--     from arbitrer
+--     natural join
+--     (
+--         select rencontre_id
+--         from rencontre
+--         where (( club_id_a = "CRD" and club_id_b = "ESMBR")
+--         or  (club_id_b = "CRD" and club_id_a = "ESMBR"))
+--     ) as a
+-- ) as b
